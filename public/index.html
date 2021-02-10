@@ -16,16 +16,20 @@
     <hr>
     <br>
 
-    <div id="addDailyWorkout">
+    <form id="addDailyWorkout">
         <input type="text" id="workoutName" placeholder="Add daily workout">
         <input type="button" value="Create workout" id="createButton">
-    </div>
+    </form>
 
     <br>
     <hr>
 
-    <div id="workouts">
+    <div id="listedWorkouts">
         <h3>Workouts You've Created:</h3>
+
+        <div id="workouts"
+            style="display: flex; flex-wrap: wrap; justify-content: space-around; width: 80%; border: 1px dotted red;">
+        </div>
     </div>
 
 
